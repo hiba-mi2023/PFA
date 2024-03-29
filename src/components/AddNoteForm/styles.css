@@ -19,10 +19,11 @@
     margin-bottom: 5px;
   }
   
-  .form-container input[type="text"],
+  .form-container input[type="text"],.form-container select,
   .form-container textarea {
     width: 100%;
     padding: 8px;
+    background-color: #f9f9f9;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -53,4 +54,9 @@
     color: red;
     margin-top: 5px;
   }
-  
+  .error-message{
+    color: red;
+    font-size: 14px;
+    margin-top: -6px;
+    margin-bottom: 0;
+  }
